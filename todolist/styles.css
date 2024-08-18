@@ -1,0 +1,36 @@
+body {
+    /* background: #2f2f2f; */
+    background: #372b45;
+    color: white;
+}
+
+
+.container {
+    max-width: 500px;
+}
+
+input[type=text],
+input[type=text]:focus {
+    color: #ddd;
+    background: rgba(0,0,0,0.2);
+    max-width: 100%;
+}
+
+.list-group-item {
+    background-color: #55426a;
+    color: white;
+    border: none;
+}
+
+form label{
+    margin-bottom: 15px;
+}
+
+
+.delete {
+    cursor: pointer;
+}
+
+.filtered{
+    display: none !important;
+}
